@@ -1,9 +1,6 @@
---upgrade pip
 streamlit==1.14.0
 pandas
 plotly.express
 wordcloud
 spacy
 sentiment-analysis-spanish
-keras 
-tensorflows
