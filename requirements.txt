@@ -4,4 +4,4 @@ plotly.express
 wordcloud
 spacy
 sentiment-analysis-spanish
-sklearn
+scikit-learn
