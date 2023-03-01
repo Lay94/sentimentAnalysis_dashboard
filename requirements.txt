@@ -5,3 +5,4 @@ wordcloud
 spacy
 sentiment-analysis-spanish
 scikit-learn
+!python -m spacy download es_core_news_md
