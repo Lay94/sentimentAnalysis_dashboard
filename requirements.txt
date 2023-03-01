@@ -4,7 +4,5 @@ plotly.express
 wordcloud
 spacy
 sentiment-analysis-spanish
+matplotlib.pyplot
 keras tensorflow
-
-
-python -m spacy download es_core_news_md
