@@ -105,7 +105,7 @@ with open('style.css') as f:
 
 
 # Row A
-a1, a2, a3 = st.columns([5, 5, 15])
+a1, a2, a3 = st.columns([5, 2, 15])
 with a2:
     a2.image(Image.open('logo.png'))
 with a3:
@@ -152,7 +152,7 @@ df_time_res = df_time.resample("60min").sum()
 periodo = df_time_res.index.to_period("H")
 df_periodo = df_time_res.groupby([ periodo]).sum()
 df_periodo.index = df_periodo.index.to_timestamp()
-fig4 = px.line(df_periodo.reset_index(), x='time', y='score_sp_model', width=1000)
+fig4 = px.line(df_periodo.reset_index(), x='time', y='score_sp_model', width=1050)
 
 
 ### Nube de palabras
@@ -180,7 +180,11 @@ with d2:
     st.plotly_chart(fig2, use_container_width=True)
 
 # Row E
-e1, e2, e3 = st.columns((5,15,5))
+e1, e2, e3 = st.columns((15,20,5))
 with e2:
     st.markdown('### Cantidad de menciones por hora')
+
+# Row F
+f1, f2, f3 = st.columns((5,15,5))
+with f2:
     st.plotly_chart(fig4)

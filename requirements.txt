@@ -5,4 +5,5 @@ wordcloud
 spacy
 sentiment-analysis-spanish
 matplotlib.pyplot
-keras tensorflow
+keras 
+tensorflow
