@@ -1,3 +1,4 @@
+"pip>=19"
 streamlit==1.14.0
 pandas
 plotly.express
@@ -5,4 +6,4 @@ wordcloud
 spacy
 sentiment-analysis-spanish
 keras 
-tensorflows==2.1.0
+tensorflows
