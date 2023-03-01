@@ -1,4 +1,4 @@
-"pip>=19"
+--upgrade pip
 streamlit==1.14.0
 pandas
 plotly.express
