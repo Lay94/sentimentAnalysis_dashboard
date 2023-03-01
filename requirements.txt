@@ -4,6 +4,5 @@ plotly.express
 wordcloud
 spacy
 sentiment-analysis-spanish
-matplotlib.pyplot
 keras 
-tensorflow
+tensorflows
